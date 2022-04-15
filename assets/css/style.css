@@ -307,8 +307,11 @@ header{
 }
 .portfolio-end-splash{
   position: absolute;
-  bottom:0%;
+  bottom:-15%;
   right:5%;
+}
+.portfolio-end-splash img{
+ width:250px;
 }
 .work{
   display: grid;
