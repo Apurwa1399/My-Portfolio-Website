@@ -1,0 +1,194 @@
+/* Tablet */
+@media (max-width:770px){
+    /* hero section */
+    .hero {
+        height: 910px;
+        padding:145px 0;
+    }
+    .me {
+        width: 60%;
+        height: 373px;
+        margin-top:30px;
+    }
+    /* about */
+    .abt-cnt h2 {
+        font-size: 30px;
+    }
+    .arrow-img {
+        top: 0%;
+    }
+    .project {
+        bottom: 45%;
+        left: 55%;
+    }
+    .abt-splash {
+        bottom: 0%;
+    }
+    /* portfolio */
+    .portfolio h5 {
+        font-size: 35px;
+    }
+    .portfolio-end-splash img{
+        width:250px;
+    }
+    .work-box a h5 {
+        font-size: 15px;
+    }
+    .work-box a h6 {
+        font-size: 12px;
+    }
+    /* Skill */
+    .skill h5 {
+        font-size: 30px;
+    }
+    /* Service */
+    .srv-left-splash img {
+        width: 240px;
+    }
+    .srv-circle i {
+        left: 40%;
+    }
+    /* Testimonial */
+    .testimonial h5 {
+        font-size: 30px;
+    }
+    .tst-left-splash img{
+        width:200px;
+    }
+    .swiper {
+        width: 70%;
+    }
+    /* Contact */
+    .cnt-content {
+        margin-top: 9%;
+    }
+    .form {
+        margin-top: 8%;
+    }
+    /* map */
+    .map-right-splash img{
+     display:none;
+    }
+}
+
+
+/* Mobile */
+@media (max-width:564px){
+    /* hero section */
+    .hero {
+        height: 765px;
+    }
+    .hero h1 {
+    font-size: 37px;
+    }
+    .me {
+        width: 65%;
+        height: 246px;
+    }
+    /* About */
+    .year {
+        top: 33%;
+        left: 2%;
+        padding: 8px;
+        height: 70px;
+    }
+    .year h6 {
+        font-size: 30px;
+    }
+    .year p {
+        font-size: 15px;
+    }
+    .project {
+        bottom: 47%;
+        padding: 8px;
+        height: 60px;
+    }
+    .project h6 {
+        font-size: 30px;
+    }
+    .project p {
+        font-size: 15px;
+    }
+    .abt-cnt h2 {
+        font-size: 24px;
+    }
+    /* portfolio */
+    .portfolio-splash {
+        top: 0%;
+    }
+    .portfolio h5 {
+        font-size: 27px;
+    }
+    .work {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .portfolio-end-splash {
+        bottom: -4%;
+    }
+    .portfolio-end-splash img {
+        width: 155px;
+    }
+    /* Skill */
+    .skill h5 {
+        font-size: 25px;
+    }
+    /* Service */
+    .srv-right-splash img{
+       display:none;
+    }
+    .srv-circle i {
+        left: 50%;
+        font-size:24px;
+    }
+    /* testimonial */
+    .swiper {
+        width: 95%;
+    }
+    .tst-right-splash img{
+        display:none;
+    }
+    /* contact */
+    .cnt-right-splash {
+        top: 0%;
+    }
+    .cnt-right-splash img{
+        width:110px;
+    }
+    .contact h5 {
+        font-size: 25px;
+    }
+    .cnt-content i {
+        padding: 23px 26px;
+    }
+    .cnt-content2 i {
+        padding: 24px;
+    }
+    .cnt-content3 i {
+        padding: 24px;
+    }
+}
+/* small mobile */
+@media(max-width:380px){
+    .abt-img {
+        height: 350px;
+    }
+    .project {
+        bottom: 50%;
+    }
+    .abt-splash img{
+        width:200px
+    }
+    .portfolio-splash {
+        top: 3%;
+    }
+}
+
+/* small mobile */
+@media(max-width:320px){
+    .srv-box{
+        padding:30px 20px;
+    }
+    .project {
+        bottom: 52%;
+    }
+}
